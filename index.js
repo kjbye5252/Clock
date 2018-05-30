@@ -1,7 +1,6 @@
 
 function setup() {
   createCanvas(windowWidth,windowHeight);
-  translate(width/2,height/2);
   angleMode(DEGREES);
   stroke(255);
   noFill();
@@ -9,6 +8,7 @@ function setup() {
 
 function draw() {
   background(51);
+  translate(width/2,height/2);
   ellipse(0,0,250);
   secondshand();
   minuteshand();
