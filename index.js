@@ -11,7 +11,7 @@ function draw() {
   translate(width/2,height/2);
   strokeWeight(1);
   fill(255);
-  text("0",0,-210);
+  text("0",0,-203);
   text("3",216,6);
   text("6",6,222);
   text("9",-216,0);
