@@ -12,7 +12,9 @@ function draw() {
   background(51);
   translate(width/2,height/2);
   strokeWeight(1);
-  text("1",0,-112);
+  noFill();
+  text("1",0,-108);
+  fill();
   rotate(180);
   strokeWeight(5);
   stroke(255);
