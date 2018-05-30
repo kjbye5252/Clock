@@ -16,17 +16,13 @@ function draw() {
 //   text("6",3,111);
 //   text("9",-108,0);
   noFill();
-//   rotate(180);
+  rotate(180);
   strokeWeight(7);
   stroke(255);
   ellipse(0,0,250);
-  line(-45,-45,-45,45);
-  line(20,0,-20,0);
-  stroke(255,0,0);
-  line(25,20,50,-40);
-//   secondshand();
-//   minuteshand();
-//   hourhand();
+  secondshand();
+  minuteshand();
+  hourhand();
 }
 
 function secondshand(){
