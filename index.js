@@ -11,6 +11,9 @@ function draw() {
   translate(width/2,height/2);
   strokeWeight(1);
   fill(255);
+  stroke(51);
+  ellipse(0,0,10);
+  stroke(255);
   text("0",0,-105);
   text("3",108,3);
   text("6",3,111);
