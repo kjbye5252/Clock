@@ -23,7 +23,7 @@ function draw() {
   line(-45,-45,-45,45);
   line(20,0,-20,0);
   stroke(255,0,0);
-  line(25,-20,50,40);
+  line(25,20,50,-40);
 //   secondshand();
 //   minuteshand();
 //   hourhand();
