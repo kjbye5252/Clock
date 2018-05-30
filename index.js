@@ -30,14 +30,14 @@ function minuteshand(){
   push();
   stroke(255);
   rotate(minute()*6);
-  line(0,0,0,100);
+  line(0,0,0,75);
   pop();
 }  
 
 function hourhand(){
   push();
-  stroke(127);
+  stroke(255);
   rotate(hour()*30);
-  line(0,0,0,100);
+  line(0,0,0,50);
   pop();
 }  
