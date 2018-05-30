@@ -9,6 +9,9 @@ function setup() {
 function draw() {
   background(51);
   translate(width/2,height/2);
+  rotate(180);
+  strokeWeight(5);
+  stroke(255,0,0);
   ellipse(0,0,250);
   secondshand();
   minuteshand();
