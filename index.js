@@ -7,11 +7,11 @@ function setup() {
 }
 
 function draw() {
-  background(51);
+  background(255);
   translate(width/2,height/2);
   rotate(180);
   strokeWeight(5);
-  stroke(255);
+  stroke(51);
   ellipse(0,0,250);
   secondshand();
   minuteshand();
