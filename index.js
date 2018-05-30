@@ -20,9 +20,11 @@ function draw() {
   strokeWeight(5);
   stroke(255);
   ellipse(0,0,250);
-  secondshand();
-  minuteshand();
-  hourhand();
+  line(-50,-50,-50,50);
+  line(25,0,-25,0);
+//   secondshand();
+//   minuteshand();
+//   hourhand();
 }
 
 function secondshand(){
