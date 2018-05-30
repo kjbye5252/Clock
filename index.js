@@ -1,9 +1,10 @@
 
 function setup() {
-  createCanvas(200,200);
+  createCanvas(windowWidth,windowHeight);
   translate(width/2,height/2);
   angleMode(DEGREES);
   stroke(255);
+  noFill();
 }
 
 function draw() {
