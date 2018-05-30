@@ -1,9 +1,9 @@
 
 function setup() {
-  createCanvas(windowWidth,windowHeight);
-  translate(width/2,height/2);
-  angleMode(DEGREES);
-  stroke(255);
+  createCanvas(200,200);
+//   translate(width/2,height/2);
+//   angleMode(DEGREES);
+//   stroke(255);
 }
 
 function draw() {
@@ -14,23 +14,23 @@ function draw() {
 //   hourhand();
 }
 
-function secondshand(){
-  push();
-  rotate(second()*6);
-  line(0,0,0,100);
-  pop();
-}  
+// function secondshand(){
+//   push();
+//   rotate(second()*6);
+//   line(0,0,0,100);
+//   pop();
+// }  
 
-function minuteshand(){
-  push();
-  rotate(minute()*6);
-  line(0,0,0,100);
-  pop();
-}  
+// function minuteshand(){
+//   push();
+//   rotate(minute()*6);
+//   line(0,0,0,100);
+//   pop();
+// }  
 
-function hourhand(){
-  push();
-  rotate(hour()*30);
-  line(0,0,0,100);
-  pop();
-}  
+// function hourhand(){
+//   push();
+//   rotate(hour()*30);
+//   line(0,0,0,100);
+//   pop();
+// }  
