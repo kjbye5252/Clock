@@ -8,10 +8,10 @@ function setup() {
 
 function draw() {
   background(51);
-  ellipse(0,0,250);
-  secondshand();
-  minuteshand();
-  hourhand();
+//   ellipse(0,0,250);
+//   secondshand();
+//   minuteshand();
+//   hourhand();
 }
 
 function secondshand(){
