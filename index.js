@@ -12,9 +12,9 @@ function draw() {
   strokeWeight(1);
   fill(255);
   text("0",-3,-203);
-  text("3",216,-3);
+  text("3",216,6);
   text("6",-3,222);
-  text("9",-216,-3);
+  text("9",-216,6);
   noFill();
   rotate(180);
   strokeWeight(14);
