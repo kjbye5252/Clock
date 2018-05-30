@@ -10,7 +10,7 @@ function setup() {
 function draw() {
   background(51);
   translate(width/2,height/2);
-  text("0",0,-112);
+  text("1",0,-112);
   rotate(180);
   strokeWeight(5);
   stroke(255);
