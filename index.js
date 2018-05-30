@@ -4,7 +4,6 @@ function setup() {
   angleMode(DEGREES);
   textAlign(CENTER);
   textSize(20);
-  stroke(255);
   noFill();
 }
 
@@ -12,7 +11,10 @@ function draw() {
   background(51);
   translate(width/2,height/2);
   strokeWeight(1);
-  text("1",0,-108);
+  text("0",0,-108);
+  text("3",108,0);
+  text("6",0,108);
+  text("9",-108,0);
   rotate(180);
   strokeWeight(5);
   stroke(255);
