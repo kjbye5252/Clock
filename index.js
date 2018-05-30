@@ -7,11 +7,11 @@ function setup() {
 }
 
 function draw() {
-  background(255);
+  background(51);
   translate(width/2,height/2);
   rotate(180);
   strokeWeight(5);
-  stroke(51);
+  stroke(255);
   ellipse(0,0,250);
   secondshand();
   minuteshand();
@@ -28,7 +28,7 @@ function secondshand(){
 
 function minuteshand(){
   push();
-  stroke(0,255,0);
+  stroke(255);
   rotate(minute()*6);
   line(0,0,0,100);
   pop();
@@ -36,7 +36,7 @@ function minuteshand(){
 
 function hourhand(){
   push();
-  stroke(0,0,255);
+  stroke(127);
   rotate(hour()*30);
   line(0,0,0,100);
   pop();
