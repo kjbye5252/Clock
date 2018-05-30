@@ -11,9 +11,9 @@ function draw() {
   translate(width/2,height/2);
   strokeWeight(1);
   fill(255);
-  text("0",-6,-203);
+  text("0",-5,-203);
   text("3",216,12);
-  text("6",-6,222);
+  text("6",-5,222);
   text("9",-216,12);
   noFill();
   rotate(180);
