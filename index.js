@@ -11,10 +11,10 @@ function draw() {
   translate(width/2,height/2);
   strokeWeight(1);
   fill(255);
-  text("0",0,-203);
-  text("3",216,6);
-  text("6",6,222);
-  text("9",-216,0);
+  text("0",-3,-203);
+  text("3",216,-3);
+  text("6",-3,222);
+  text("9",-216,-3);
   noFill();
   rotate(180);
   strokeWeight(14);
