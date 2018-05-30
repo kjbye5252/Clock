@@ -3,6 +3,7 @@ function setup() {
   createCanvas(windowWidth,windowHeight);
   angleMode(DEGREES);
   textAlign(CENTER);
+  textSize(20);
   stroke(255);
   noFill();
 }
