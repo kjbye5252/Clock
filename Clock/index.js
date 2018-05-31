@@ -1,4 +1,3 @@
-
 function setup() {
   createCanvas(windowWidth,windowHeight);
   angleMode(DEGREES);
@@ -11,10 +10,10 @@ function draw() {
   translate(width/2,height/2);
   strokeWeight(1);
   fill(255);
-  text("0",-5,-203);
-  text("3",216,12);
-  text("6",-5,222);
-  text("9",-216,12);
+  text("0",-0.5,-200);
+  text("3",216,14);
+  text("6",-0.5,222);
+  text("9",-216,14);
   noFill();
   rotate(180);
   strokeWeight(14);
@@ -29,9 +28,9 @@ function secondshand(){
   push();
   stroke(255,0,0);
   rotate(second()*6);
-  line(0,0,0,200);
+  line(0,0,0,180);
   pop();
-}  
+}
 
 function minuteshand(){
   push();
@@ -39,7 +38,7 @@ function minuteshand(){
   rotate(minute()*6);
   line(0,0,0,150);
   pop();
-}  
+}
 
 function hourhand(){
   push();
@@ -47,4 +46,4 @@ function hourhand(){
   rotate(hour()*30);
   line(0,0,0,100);
   pop();
-}  
+}
