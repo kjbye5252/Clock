@@ -10,7 +10,7 @@ function draw() {
   translate(width/2,height/2);
   strokeWeight(1);
   fill(255);
-  text("0",-0.5,-200);
+  text("12",-0.5,-200);
   text("3",216,14);
   text("6",-0.5,222);
   text("9",-216,14);
